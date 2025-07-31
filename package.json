@@ -1,0 +1,56 @@
+{
+	"name": "effect-http-mock",
+	"version": "0.1.0",
+	"description": "HTTP client mocking library for Effect-based applications with record & replay capabilities",
+	"keywords": [
+		"effect",
+		"http",
+		"mock",
+		"testing",
+		"record",
+		"replay"
+	],
+	"module": "index.ts",
+	"main": "index.ts",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./index.ts",
+			"types": "./index.ts"
+		}
+	},
+	"files": [
+		"index.ts",
+		"README.md",
+		"LICENSE",
+		"tests/.mock_responses/R0VUIGh0dHBzOi8vaHR0cGJpbi5vcmcvZ2V0.http"
+	],
+	"author": "Your Name",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yourusername/mockhttp.git"
+	},
+	"bugs": {
+		"url": "https://github.com/yourusername/mockhttp/issues"
+	},
+	"homepage": "https://github.com/yourusername/mockhttp#readme",
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.2",
+		"@effect/platform": ">=0.90.0",
+		"effect": ">=3.17.0"
+	},
+	"dependencies": {
+		"@effect/platform": "^0.90.0",
+		"@effect/platform-bun": "^0.77.0",
+		"effect": "^3.17.4"
+	},
+	"scripts": {
+		"test": "bun test",
+		"typecheck": "tsc --noEmit",
+		"prepublishOnly": "bun run typecheck && bun test"
+	}
+}

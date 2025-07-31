@@ -1,0 +1,23 @@
+HTTP/1.1 200
+access-control-allow-credentials: true
+access-control-allow-origin: *
+connection: keep-alive
+content-length: 467
+content-type: application/json
+date: Thu, 31 Jul 2025 21:14:59 GMT
+server: gunicorn/19.9.0
+
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate, br, zstd", 
+    "B3": "redacted", 
+    "Host": "httpbin.org", 
+    "Traceparent": "redcated", 
+    "User-Agent": "Bun/1.2.19", 
+    "X-Amzn-Trace-Id": "Root=redacted"
+  }, 
+  "origin": "55.55.55.55",  
+  "url": "https://httpbin.org/get"
+}
