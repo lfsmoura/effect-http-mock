@@ -25,16 +25,16 @@
 		"LICENSE",
 		"tests/.mock_responses/R0VUIGh0dHBzOi8vaHR0cGJpbi5vcmcvZ2V0.http"
 	],
-	"author": "Your Name",
+	"author": "Leonardo Moura",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/yourusername/mockhttp.git"
+		"url": "https://github.com/lfsmoura/effect-http-mock.git"
 	},
 	"bugs": {
-		"url": "https://github.com/yourusername/mockhttp/issues"
+		"url": "https://github.com/lfsmoura/effect-http-mock/issues"
 	},
-	"homepage": "https://github.com/yourusername/mockhttp#readme",
+	"homepage": "https://github.com/lfsmoura/effect-http-mock#readme",
 	"devDependencies": {
 		"@types/bun": "latest"
 	},
